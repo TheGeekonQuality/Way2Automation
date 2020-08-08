@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Way2AutomationDemo">
+  <test thread-count="5" name="AutomateWay2Automation">
+    <classes>
+      <class name="com.way2automation.demo.tests.AutomateWay2Automation"/>
+    </classes>
+  </test> 
+</suite> 

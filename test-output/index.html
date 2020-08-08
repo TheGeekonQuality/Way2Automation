@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Way2AutomationDemo" class="navigator-link">
+              <span class="suite-name border-failed">Way2AutomationDemo</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Way2AutomationDemo" class="navigator-link ">
+                    <span>C:\personal\workspace\Way2AutomationDemo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Way2AutomationDemo" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Way2AutomationDemo" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Way2AutomationDemo" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Way2AutomationDemo" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Way2AutomationDemo" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Way2AutomationDemo" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Way2AutomationDemo" class="hide-methods failed suite-Way2AutomationDemo"> (hide)</a> <!-- hide-methods failed suite-Way2AutomationDemo -->
+                      <a href="#" panel-name="suite-Way2AutomationDemo" class="show-methods failed suite-Way2AutomationDemo"> (show)</a> <!-- show-methods failed suite-Way2AutomationDemo -->
+                    </span>
+                    <div class="method-list-content failed suite-Way2AutomationDemo">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Way2AutomationDemo" title="com.way2automation.demo.tests.AutomateWay2Automation" class="method navigator-link" hash-for-method="dynamicElements">dynamicElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Way2AutomationDemo -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Way2AutomationDemo" class="hide-methods passed suite-Way2AutomationDemo"> (hide)</a> <!-- hide-methods passed suite-Way2AutomationDemo -->
+                      <a href="#" panel-name="suite-Way2AutomationDemo" class="show-methods passed suite-Way2AutomationDemo"> (show)</a> <!-- show-methods passed suite-Way2AutomationDemo -->
+                    </span>
+                    <div class="method-list-content passed suite-Way2AutomationDemo">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Way2AutomationDemo" title="com.way2automation.demo.tests.AutomateWay2Automation" class="method navigator-link" hash-for-method="Alerts">Alerts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Way2AutomationDemo" title="com.way2automation.demo.tests.AutomateWay2Automation" class="method navigator-link" hash-for-method="FramesAndWindows">FramesAndWindows</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Way2AutomationDemo" title="com.way2automation.demo.tests.AutomateWay2Automation" class="method navigator-link" hash-for-method="WidgetDatePicker">WidgetDatePicker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Way2AutomationDemo" title="com.way2automation.demo.tests.AutomateWay2Automation" class="method navigator-link" hash-for-method="WidgetsMenuTabs">WidgetsMenuTabs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Way2AutomationDemo" title="com.way2automation.demo.tests.AutomateWay2Automation" class="method navigator-link" hash-for-method="registration">registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Way2AutomationDemo -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Way2AutomationDemo" class="panel Way2AutomationDemo">
+          <div class="suite-Way2AutomationDemo-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.way2automation.demo.tests.AutomateWay2Automation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dynamicElements">
+                  </a> <!-- dynamicElements -->
+                  <span class="method-name">dynamicElements</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Argentina] but found []
+	at com.way2automation.demo.tests.AutomateWay2Automation.dynamicElements(AutomateWay2Automation.java:139)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Way2AutomationDemo-class-failed -->
+          <div class="suite-Way2AutomationDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.way2automation.demo.tests.AutomateWay2Automation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Alerts">
+                  </a> <!-- Alerts -->
+                  <span class="method-name">Alerts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FramesAndWindows">
+                  </a> <!-- FramesAndWindows -->
+                  <span class="method-name">FramesAndWindows</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WidgetDatePicker">
+                  </a> <!-- WidgetDatePicker -->
+                  <span class="method-name">WidgetDatePicker</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WidgetsMenuTabs">
+                  </a> <!-- WidgetsMenuTabs -->
+                  <span class="method-name">WidgetsMenuTabs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration">
+                  </a> <!-- registration -->
+                  <span class="method-name">registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Way2AutomationDemo-class-passed -->
+        </div> <!-- panel Way2AutomationDemo -->
+        <div panel-name="test-xml-Way2AutomationDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\personal\workspace\Way2AutomationDemo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Way2AutomationDemo&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AutomateWay2Automation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.way2automation.demo.tests.AutomateWay2Automation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AutomateWay2Automation --&gt;
+&lt;/suite&gt; &lt;!-- Way2AutomationDemo --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Way2AutomationDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Way2AutomationDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AutomateWay2Automation (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Way2AutomationDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Way2AutomationDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Way2AutomationDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Way2AutomationDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Way2AutomationDemo');
+function tableData_Way2AutomationDemo() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Alerts')
+data.setCell(0, 2, 'com.way2automation.demo.tests.AutomateWay2Automation')
+data.setCell(0, 3, 51735);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'dynamicElements')
+data.setCell(1, 2, 'com.way2automation.demo.tests.AutomateWay2Automation')
+data.setCell(1, 3, 44643);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'FramesAndWindows')
+data.setCell(2, 2, 'com.way2automation.demo.tests.AutomateWay2Automation')
+data.setCell(2, 3, 40361);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'WidgetsMenuTabs')
+data.setCell(3, 2, 'com.way2automation.demo.tests.AutomateWay2Automation')
+data.setCell(3, 3, 38519);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'WidgetDatePicker')
+data.setCell(4, 2, 'com.way2automation.demo.tests.AutomateWay2Automation')
+data.setCell(4, 3, 36229);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'registration')
+data.setCell(5, 2, 'com.way2automation.demo.tests.AutomateWay2Automation')
+data.setCell(5, 3, 17055);
+window.suiteTableData['Way2AutomationDemo']= { tableData: data, tableDiv: 'times-div-Way2AutomationDemo'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Way2AutomationDemo">
+              </div> <!-- times-div-Way2AutomationDemo -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Way2AutomationDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Way2AutomationDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Way2AutomationDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Way2AutomationDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.way2automation.demo.tests.AutomateWay2Automation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">219 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registration</span>
+                <span class="method-start">13003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=registration status=SUCCESS method=AutomateWay2Automation.registration()[pri:1, ins...)</span>
+                <span class="method-start">30060 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">31201 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dynamicElements</span>
+                <span class="method-start">42488 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=dynamicElements status=FAILURE method=AutomateWay2Automation.dynamicElements()[pri:...)</span>
+                <span class="method-start">87134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">88020 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">WidgetsMenuTabs</span>
+                <span class="method-start">100231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=WidgetsMenuTabs status=SUCCESS method=AutomateWay2Automation.WidgetsMenuTabs()[pri:...)</span>
+                <span class="method-start">138751 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">139563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Alerts</span>
+                <span class="method-start">150637 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Alerts status=SUCCESS method=AutomateWay2Automation.Alerts()[pri:4, instance:com.wa...)</span>
+                <span class="method-start">202373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">203199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">WidgetDatePicker</span>
+                <span class="method-start">215072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=WidgetDatePicker status=SUCCESS method=AutomateWay2Automation.WidgetDatePicker()[pr...)</span>
+                <span class="method-start">251302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">252223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FramesAndWindows</span>
+                <span class="method-start">263490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=FramesAndWindows status=SUCCESS method=AutomateWay2Automation.FramesAndWindows()[pr...)</span>
+                <span class="method-start">303851 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
